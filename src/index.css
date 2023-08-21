@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Open+Sans:wght@300;400;600;700;800&display=swap');
+*{  max-width: 100vw;
+    padding: 0;
+    margin: 0;
+    font-family: 'Manrope', sans-serif;
+font-family: 'Open Sans', sans-serif;
+}
+*::-webkit-scrollbar{ 
+
+        display: none;
+ 
+}
+
+::selection {
+    color: rgb(255, 255, 255);
+    background: rgb(90, 0, 0);
+}
+
+Link{
+    text-decoration: none;
+  }
+  *{
+    font-family: 'Manrope', sans-serif !important;
+    font-family: 'Open Sans', sans-serif !important;
+  }

@@ -1,0 +1,81 @@
+.linkDecoration{
+    text-decoration: none;    
+}
+.navDiv{
+    position: fixed;
+    width: 100%;
+    height: 7%;
+    background-color: rgba(1, 1, 1, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: 0.3s;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size:x-large;
+    z-index: 99;
+    backdrop-filter: blur(5px);
+}
+.navLogo{
+    width: 20%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.svgLogo{
+   
+    height: 60%;
+
+    fill: rgb(255, 255, 255);
+}
+
+.navTexts{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.navText{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 3%;
+}
+.navScrollTop{
+    opacity: 0;
+}
+
+.crPointer{
+    color: rgba(255, 255, 255, 0.7);
+}
+  .crPointer:hover{
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  .crPointer:active {
+color: white;
+  }
+
+  @media screen and (max-width: 480px) {
+    .navDiv{
+        position: fixed;
+        top:0;
+        left: 0;
+        width: 100%;
+        height: 5%;
+        background-color: rgba(1, 1, 1, 0.7);
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        transition: 0.5s;
+        color: white;
+        font-family: 'Bebas Neue', cursive;
+        font-size:x-large;
+    }
+  }
